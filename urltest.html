@@ -14,8 +14,13 @@ function getQueryVariable(variable)
 }
 
 
-var xpart = getQueryVariable("itemdetails");
-var xpart2 = getQueryVariable("messageTxt");
+var itemdetails = getQueryVariable("itemdetails");
+var messageTxt = getQueryVariable("messageTxt");
+var stuName = getQueryVariable("stuName");
+var emailAD = getQueryVariable("emailAD");
+	
+
+	
 
  
 	
@@ -27,7 +32,7 @@ var xpart2 = getQueryVariable("messageTxt");
 
 <body>
 <script>
- document.write(xpart + " - " + xpart2);
+ document.write(itemdetails);
 	 window.location.replace("http://195.195.159.71/inventory");
 
 </script>
